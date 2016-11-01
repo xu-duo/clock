@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #333;
+    position: relative;
+    box-shadow:
+            0 0 15px #FFF,
+            0 0 25px #996600,
+            0 2px 5px 15px #333;
+}
+ul li{
+    text-align: center;
+    list-style-type: square;
+    color: #fff;
+    width:160px;
+    height:20px;
+    position:absolute;
+    left:20px;
+    top:90px;
+}
+#clock span{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: -10px;
+    display:block;
+    color: #fff;
+    width:20px;
+    height:20px;
+}
+#week{
+    text-align: center;
+    width: 50px;
+    position:absolute;
+    left: 75px;
+    bottom:120px;
+}
+#input{
+    text-align: center;
+    width: 60px;
+    position:absolute;
+    left: 70px;
+    bottom:60px;
+}
+.center{
+    position:absolute;
+    bottom:92px;
+    transform-origin:50% 90%;           /*设置旋转元素的基点位置*/
+    -webkit-transform-origin:50% 90%;   /* Safari 和 Chrome */
+    -ms-transform-origin:50% 90%; 		/* IE 9 */
+    -moz-transform-origin:50% 90%;		/* Firefox */
+    -o-transform-origin:50% 90%;		/* Opera */
+}
+#hour{
+    width:6px;
+    height:55px;
+    left:98px;
+    background:#ff0;
+
+}
+#minute{
+    width:4px;
+    height:70px;
+    left:99px;
+    background:#0f0;
+}
+#second{
+    width:2px;
+    height:80px;
+    left:100px;
+    background:#f00;
+}
